@@ -36,6 +36,7 @@ public class Ex2 {
 	public static void rebaixado(String[]times, int[]pontos) {
 		ordenaTabela(times,pontos);
 		System.out.println("Os rebaixados são: " + times[9] + " e " + times[10]);
+		System.out.println("Só mudança");
 	}
 
 	public static void main(String[] args) {
@@ -69,6 +70,7 @@ public class Ex2 {
 			case 4:
 				rebaixado(equipes,pontos);
 				break;
+				
 			}
 		}
 		
